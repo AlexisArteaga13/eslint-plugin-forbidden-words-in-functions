@@ -19,7 +19,7 @@ module.exports = {
     "forbidden-words-in-functions"
   ],
   rules: {
-    "forbidden-words-in-functions/forbidden-words": [
+    "forbidden-words-in-functions/validate-name-function": [
       "error",
       {
         "forbiddenWords": ["bad", "illegal", "deprecated"]
@@ -42,7 +42,7 @@ module.exports = {
     "forbidden-words-in-functions"
   ],
   rules: {
-    "forbidden-words-in-functions/forbidden-words": [
+    "forbidden-words-in-functions/validate-name-function": [
       "error",
       {
         "forbiddenWords": ["bad", "illegal", "deprecated"]
